@@ -138,6 +138,10 @@ main.verkennen {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content 1fr;
+}
 
-
+article > img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: none;
 }
