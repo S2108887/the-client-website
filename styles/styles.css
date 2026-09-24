@@ -1,1 +1,65 @@
-/* CSS */
+* {
+  box-sizing: border-box;
+}
+
+/*Een ander letterype wordt ingeladen: Alegreya.*/
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+
+  /*Dit zorgt ervoor dat alle cijfers even hoog en even breed zijn.*/
+  font-feature-settings: "lnum", "tnum";
+  src: url("../assets/fonts/Alegreya-Regular.ttf");
+}
+
+/*De italic-versie van Alegreya*/
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  src: url("../assets/fonts/Alegreya-Italic.ttf");
+}
+
+html {
+  font-family: "Alegreya";
+}
+
+/*De uiteindelijke CSS moet nog bepaald worden. Voorlopig ga ik alleen de html in orde maken.*/
+
+p {
+  font-weight: normal;
+  font-size: 1.1rem;
+}
+
+nav svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*Alle afbeeldingen zijn voorlopig placeholders.*/
+svg,
+img {
+  border: 2px solid black;
+
+  background-image:
+    linear-gradient(45deg,
+      transparent 0% 40%,
+      red calc(40% + 1px) 60%,
+      transparent calc(60% + 1px)),
+    linear-gradient(-45deg,
+      transparent 0% 40%,
+      red calc(40% + 1px) 60%,
+      transparent calc(60% + 1px));
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+nav>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
