@@ -25,14 +25,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.94430416"
-     inkscape:cx="304.45699"
-     inkscape:cy="450.06685"
+     inkscape:cx="439.47704"
+     inkscape:cy="534.78532"
      inkscape:window-width="1440"
      inkscape:window-height="741"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="svg1" />
   <defs
      id="defs1">
     <rect
@@ -259,6 +259,64 @@
        id="rect134" />
   </defs>
   <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Opmerkingen"
+     inkscape:highlight-color="#e80000">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:2.43817"
+       id="rect6"
+       width="248.65157"
+       height="190"
+       x="1.4210855e-14"
+       y="4.6002197e-07"
+       rx="1.0198053e-16"
+       inkscape:label="Achtergrond" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-4.763208,-8.4056601)"
+       id="text131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect132);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
+         x="49.771484"
+         y="641.22051"
+         id="tspan38">Smalle weergave</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,77.288112,-9.8066029)"
+       id="text132"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect133);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
+         x="49.771484"
+         y="641.22051"
+         id="tspan39">Brede weergave</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,138.48282,2.7699729)"
+       id="text133"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect134);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
+         x="49.771484"
+         y="641.22051"
+         id="tspan40">Past de inhoud niet helemaal in beeld, dan </tspan><tspan
+         x="49.771484"
+         y="664.84252"
+         id="tspan41">zal je verticaal moeten scrollen. Dit geldt </tspan><tspan
+         x="49.771484"
+         y="688.46453"
+         id="tspan42">ook voor de smalle weergave.</tspan></text>
+    <g
+       id="g135"
+       transform="rotate(-18.596843,353.22896,212.58324)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+         d="m 217.28066,118.73504 c 1.71352,0.17783 15.69056,-8.60407 15.69056,-10.64717"
+         id="path134" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+         d="m 229.60122,107.44953 c 0.11116,0.0103 0.63976,0.25583 0.65006,0.14466 0.0103,-0.11116 -0.75634,-0.17883 -0.65006,-0.14466 0.45027,0.14478 0.8904,0.21609 1.34704,0.27284 0.69243,0.0861 1.95865,-0.40516 2.58469,-0.0161 0.53327,0.33141 -0.34977,2.71936 -0.51953,2.99249 -0.14249,0.22928 0.0101,0.56971 -0.0487,0.81619"
+         id="path135"
+         sodipodi:nodetypes="cscsssc" />
+    </g>
+  </g>
+  <g
      inkscape:label="Smal"
      inkscape:groupmode="layer"
      id="layer1"
@@ -280,7 +338,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan1">Home</tspan></text>
+         id="tspan43">Home</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-38.048606,3.7900875)"
@@ -288,7 +346,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan2">Verkennen</tspan></text>
+         id="tspan44">Verkennen</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-13.177771,3.7900875)"
@@ -296,7 +354,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan3">Nieuws</tspan></text>
+         id="tspan45">Nieuws</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,4.2847277,3.7900875)"
@@ -304,7 +362,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan4">Collectie</tspan></text>
+         id="tspan46">Collectie</tspan></text>
     <g
        id="g7"
        transform="matrix(0.42222922,0,0,0.42222922,-15.788717,111.60063)"
@@ -454,7 +512,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2362px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="590.32591"
-         id="tspan5">Verkennen</tspan></text>
+         id="tspan47">Verkennen</tspan></text>
     <rect
        style="fill:#ffffff;stroke:none;stroke-width:1;stroke-dasharray:none"
        id="rect34"
@@ -470,7 +528,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4567px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect35);display:inline;fill:#00ff00;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="586.82987"
-         id="tspan6">Gebieden</tspan></text>
+         id="tspan48">Gebieden</tspan></text>
     <g
        id="g37"
        transform="translate(-51.694811,-1.1526728)">
@@ -483,7 +541,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect29);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
              x="266.57812"
              y="579.8377"
-             id="tspan7">Kaart</tspan></text>
+             id="tspan49">Kaart</tspan></text>
         <use
            x="0"
            y="0"
@@ -542,7 +600,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect28);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
            x="266.57812"
            y="579.8377"
-           id="tspan8">Lijst</tspan></text>
+           id="tspan50">Lijst</tspan></text>
       <rect
          style="fill:#00ff00;stroke:none;stroke-width:1;stroke-dasharray:none"
          id="rect36"
@@ -565,7 +623,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect38);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan9">Heuvels</tspan></text>
+         id="tspan51">Heuvels</tspan></text>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:1;stroke-dasharray:none"
        d="m 40.927614,55.638449 c 0.08931,0.06699 0.411098,0.552937 0.478079,0.463619 0.06699,-0.08931 -0.550728,-0.548385 -0.478079,-0.463619 0.30781,0.359111 0.645437,0.650316 1.004761,0.937766 0.544849,0.435884 1.880812,0.680397 2.210452,1.339673 0.280787,0.561581 -1.721874,2.133627 -2.00951,2.277438 -0.241448,0.120728 -0.289704,0.490661 -0.468886,0.669843"
@@ -578,7 +636,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect39);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan10">Sierlinten</tspan></text>
+         id="tspan52">Sierlinten</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-46.997369,-45.181249)"
@@ -586,7 +644,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect40);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan11">Voedseleilanden</tspan></text>
+         id="tspan53">Voedseleilanden</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-46.997369,-30.111307)"
@@ -594,7 +652,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect41);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan12">Waterplantgebieden</tspan></text>
+         id="tspan54">Waterplantgebieden</tspan></text>
     <use
        x="0"
        y="0"
@@ -620,7 +678,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect43);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan13">Sierlint 1</tspan></text>
+         id="tspan55">Sierlint 1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-37.572368,-62.836851)"
@@ -628,7 +686,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect44);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan14">Sierlint 2</tspan></text>
+         id="tspan56">Sierlint 2</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-37.572368,-55.95768)"
@@ -636,7 +694,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect45);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan15">Sierlint 3</tspan></text>
+         id="tspan57">Sierlint 3</tspan></text>
     <circle
        id="path45"
        style="fill:#ffffff;stroke:none;stroke-width:0.264583"
@@ -662,7 +720,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect47);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan16">Waterplantgebied 1</tspan></text>
+         id="tspan58">Waterplantgebied 1</tspan></text>
     <use
        x="0"
        y="0"
@@ -692,7 +750,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect103);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan17">Home</tspan></text>
+         id="tspan59">Home</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,57.680461,-114.71297)"
@@ -700,7 +758,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect104);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan18">Verkennen</tspan></text>
+         id="tspan60">Verkennen</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,56.401523,-103.81618)"
@@ -708,7 +766,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect105);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan19">Nieuws</tspan></text>
+         id="tspan61">Nieuws</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,59.528918,-91.928784)"
@@ -716,7 +774,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect106);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan20">Collectie</tspan></text>
+         id="tspan62">Collectie</tspan></text>
     <g
        id="g89"
        transform="matrix(0.42222923,0,0,0.42222923,82.515944,-10.86496)"
@@ -871,7 +929,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect115);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan21">Heuvels</tspan></text>
+         id="tspan63">Heuvels</tspan></text>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:1;stroke-dasharray:none"
        d="m 177.45281,62.51762 c 0.0893,0.06699 0.4111,0.552937 0.47808,0.463619 0.067,-0.08931 -0.55073,-0.548385 -0.47808,-0.463619 0.30781,0.359111 0.64544,0.650316 1.00476,0.937766 0.54486,0.435884 1.88083,0.680397 2.21047,1.339673 0.28079,0.561581 -1.72188,2.133627 -2.00952,2.277438 -0.24145,0.120728 -0.28971,0.490661 -0.46889,0.669843"
@@ -884,7 +942,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect116);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan22">Sierlinten</tspan></text>
+         id="tspan64">Sierlinten</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,89.527671,-52.589588)"
@@ -892,7 +950,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan23">Voedseleilanden</tspan></text>
+         id="tspan65">Voedseleilanden</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,144.44465,-54.330965)"
@@ -900,7 +958,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect118);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan24">Waterplantgebieden</tspan></text>
+         id="tspan66">Waterplantgebieden</tspan></text>
     <use
        x="0"
        y="0"
@@ -926,7 +984,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect119);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan25">Sierlint 1</tspan></text>
+         id="tspan67">Sierlint 1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,152.57213,-71.367995)"
@@ -934,7 +992,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect120);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan26">Sierlint 2</tspan></text>
+         id="tspan68">Sierlint 2</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,152.57213,-64.488864)"
@@ -942,7 +1000,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect121);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan27">Sierlint 3</tspan></text>
+         id="tspan69">Sierlint 3</tspan></text>
     <circle
        id="circle113"
        style="fill:#ffffff;stroke:none;stroke-width:0.264583"
@@ -968,7 +1026,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect122);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="579.8377"
-         id="tspan28">Waterplantgebied 1</tspan></text>
+         id="tspan70">Waterplantgebied 1</tspan></text>
     <use
        x="0"
        y="0"
@@ -982,7 +1040,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.2362px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect128);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="590.32591"
-         id="tspan29">Verkennen</tspan></text>
+         id="tspan71">Verkennen</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,129.27467,-99.366696)"
@@ -990,7 +1048,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.4567px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect129);display:inline;fill:#00ff00;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
          x="266.57812"
          y="586.82987"
-         id="tspan30">Gebieden</tspan></text>
+         id="tspan72">Gebieden</tspan></text>
     <g
        id="g125"
        transform="translate(111.81779,5.1973274)">
@@ -1003,7 +1061,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect130);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
              x="266.57812"
              y="579.8377"
-             id="tspan31">Kaart</tspan></text>
+             id="tspan73">Kaart</tspan></text>
         <use
            x="0"
            y="0"
@@ -1062,7 +1120,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect131);display:inline;fill:#ffffff;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
            x="266.57812"
            y="579.8377"
-           id="tspan32">Lijst</tspan></text>
+           id="tspan74">Lijst</tspan></text>
       <rect
          style="fill:#00ff00;stroke:none;stroke-width:1;stroke-dasharray:none"
          id="rect127"
@@ -1077,55 +1135,6 @@
          cx="87.885612"
          cy="32.275787"
          r="1.9543633" />
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Opmerkingen"
-     inkscape:highlight-color="#e80000">
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-4.763208,-8.4056601)"
-       id="text131"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect132);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
-         x="49.771484"
-         y="641.22051"
-         id="tspan33">Smalle weergave</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,77.288112,-9.8066029)"
-       id="text132"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect133);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
-         x="49.771484"
-         y="641.22051"
-         id="tspan34">Brede weergave</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,138.48282,2.7699729)"
-       id="text133"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.8976px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect134);display:inline;fill:#000000;stroke:none;stroke-width:3.77953;stroke-dasharray:none"><tspan
-         x="49.771484"
-         y="641.22051"
-         id="tspan35">Past de inhoud niet helemaal in beeld, dan </tspan><tspan
-         x="49.771484"
-         y="664.84252"
-         id="tspan36">zal je verticaal moeten scrollen. Dit geldt </tspan><tspan
-         x="49.771484"
-         y="688.46453"
-         id="tspan37">ook voor de smalle weergave.</tspan></text>
-    <g
-       id="g135"
-       transform="rotate(-18.596843,353.22896,212.58324)">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
-         d="m 217.28066,118.73504 c 1.71352,0.17783 15.69056,-8.60407 15.69056,-10.64717"
-         id="path134" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-dasharray:none"
-         d="m 229.60122,107.44953 c 0.11116,0.0103 0.63976,0.25583 0.65006,0.14466 0.0103,-0.11116 -0.75634,-0.17883 -0.65006,-0.14466 0.45027,0.14478 0.8904,0.21609 1.34704,0.27284 0.69243,0.0861 1.95865,-0.40516 2.58469,-0.0161 0.53327,0.33141 -0.34977,2.71936 -0.51953,2.99249 -0.14249,0.22928 0.0101,0.56971 -0.0487,0.81619"
-         id="path135"
-         sodipodi:nodetypes="cscsssc" />
     </g>
   </g>
 </svg>
