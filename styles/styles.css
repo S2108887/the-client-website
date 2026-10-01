@@ -27,6 +27,8 @@ html {
 
   /*Deze kleur wordt nog niet gebruikt, maar ik zou het later kunnen gebruiken.*/
   --nogEenKleur: #7CDE9C;
+
+  --tekst-grootte: 1.1rem;
 }
 
 body {
@@ -36,13 +38,59 @@ body {
   width: 100vw;
   height: 100vh;
 
+  margin: 0;
+  padding: 0;
+
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr min-content;
+  grid-template-columns: [navigatie main] 1fr;
+  grid-template-rows: [main] 1fr [navigatie] max-content;
+
+  @media (min-width: 32rem) {
+    grid-template-columns: [navigatie] max-content [main] 1fr;
+    grid-template-rows: [navigatie main] 1fr;
+  }
+}
+
+main {
+  grid-column: main;
+  grid-row: main;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--tekstkleur);
+  @media (min-width: 32rem) {
+    border-bottom: 0;
+    border-left: 2px solid var(--tekstkleur);
+  }
+}
+
+nav {
+  grid-column: navigatie;
+  grid-row: navigatie;
+  /* border-top: 2px solid var(--tekstkleur); */
+  padding: 1rem;
+  padding-top: 0.5rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 1rem;
 
-  margin: 0;
-  padding: 1rem;
+  @media (min-width: 32rem) {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+}
+
+nav>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 32rem) {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
 }
 
 a {
@@ -78,19 +126,6 @@ img {
       transparent 0% 40%,
       red calc(40% + 1px) 60%,
       transparent calc(60% + 1px));
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  justify-content: space-between;
-}
-
-nav>a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 form {
