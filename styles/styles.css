@@ -133,14 +133,92 @@ img {
       transparent calc(60% + 1px));
 }
 
-form {
-  display: flex;
-  justify-content: space-between;
+@property --bloem-lengte {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --bloem-alpha {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+
+label:has(input[type="radio"]) {
+  transition: --bloem-lengte 0.5s, --bloem-alpha 0.5s;
+  --bloem-lengte: 0;
+  --bloem-alpha: 0%;
+
+  display: grid;
+  grid-template-columns: [beschrijving] max-content [knop] max-content;
+  gap: 0.5rem;
   align-items: center;
 
-  label {
-    display: flex;
+  cursor: pointer;
+
+  &:has(input:checked) {
+    --bloem-lengte: 1;
+    --bloem-alpha: 100%;
   }
+
+  /*Dit wordt de steel van de bloem.*/
+  &::before {
+    grid-column: knop;
+    grid-row: 1;
+    width: 2rem;
+    height: 4rem;
+
+    content: "";
+
+    background-image:
+            linear-gradient(0deg,
+                var(--accentkleur1) 0 calc(var(--bloem-lengte) * 2.5rem),
+                transparent calc(var(--bloem-lengte) * 2.5rem + 1px));
+
+        background-size: 0.3rem 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+  }
+
+  /*Dit wordt de kop van de bloem.*/
+  input {
+    margin: 0;
+    grid-column: knop;
+    grid-row: 1;
+
+    align-self: start;
+    transition: translate 0.5s;
+    translate: 0 2.5rem;
+
+    &:checked {
+      translate: 0;
+    }
+
+    width: 2rem;
+    height: 2rem;
+    appearance: none;
+
+    border-radius: 50%;
+
+    background-image:
+            radial-gradient(at 50% 1rem,
+            var(--tekstkleur) 0 0.5rem,
+            transparent calc(0.5rem + 1px)
+
+            ),
+            repeating-conic-gradient(
+            rgb(from var(--accentkleur2) r g b / var(--bloem-alpha)) 0 15deg,
+            transparent 16deg 36deg,
+            rgb(from var(--accentkleur2) r g b / var(--bloem-alpha)) 37deg calc(360deg / 7));    
+  }
+
+
+}
+
+.verkentype-formulier {
+  display: flex;
+  justify-content: space-evenly;
 
   label>span {
     display: flex;
@@ -148,10 +226,14 @@ form {
     align-items: center;
   }
 
-
   svg {
     width: 2rem;
     height: 2rem;
+  }
+
+  /*In dit formulier wil ik dat de tweede radiobloem vóór diens omschrijving verschijnt.*/
+  label:nth-child(2) {
+    grid-template-columns: [knop] max-content [beschrijving] max-content;
   }
 }
 
@@ -177,11 +259,11 @@ main.verkennen {
     display: none;
   }
 
-  form:has(label:nth-child(1) > input:checked)~section:nth-of-type(1) {
+  .verkentype-formulier:has(label:nth-child(1) > input:checked)~section:nth-of-type(1) {
     display: grid;
   }
 
-  form:has(label:nth-child(2) > input:checked)~section:nth-of-type(2) {
+  .verkentype-formulier:has(label:nth-child(2) > input:checked)~section:nth-of-type(2) {
     display: grid;
   }
 }
