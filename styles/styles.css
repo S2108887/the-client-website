@@ -270,7 +270,8 @@ main.verkennen {
 
 .gebiedenlijstsectie {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, 15rem);
+  justify-content: space-evenly;
   gap: 1rem;
   grid-auto-rows: max-content;
 
@@ -283,6 +284,7 @@ main.verkennen {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
   }
 
