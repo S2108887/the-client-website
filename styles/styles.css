@@ -21,11 +21,11 @@ html {
   /*Er kunnen kleuren ingesteld worden voor lichte modus en donkere modus, maar dat doe ik nog niet.*/
   --achtergrondkleur: black;
   --tekstkleur: white;
-  --accentkleur1: #00FF00;
-  --accentkleur2: #58EAF3;
+  --accentkleur1: #00BA00;
+  --accentkleur2: #A9EBEF;
 
   /*Deze kleur wordt nog niet gebruikt, maar ik zou het later kunnen gebruiken.*/
-  --nogEenKleur: #7CDE9C;
+  --nogEenKleur: #6969E8;
 
   --tekst-grootte: 1.1rem;
 }
