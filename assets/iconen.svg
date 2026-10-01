@@ -47,4 +47,13 @@
    <use transform="translate(0 15.315)" xlink:href="#use37"/>
   </g>
  </symbol>
+ <symbol id="collectie">
+  <circle id="path6" transform="matrix(.26458 0 0 .26458 -20.513 7.4835)" cx="118.08" cy="92.661" r="30.236" fill="none" stroke="var(--icoon-kleur , #fff)" stroke-width="18.898"/>
+  <use id="use6" transform="translate(21.272)" xlink:href="#path6"/>
+  <use id="use7" transform="translate(21.42)" xlink:href="#use6"/>
+  <use transform="translate(-31.604 -19.839)" xlink:href="#use7"/>
+  <use transform="translate(-7.6299 -21.5)" xlink:href="#use7"/>
+  <use transform="translate(-34.734 21.5)" xlink:href="#use7"/>
+  <use transform="translate(33.645 20.708)" xlink:href="#path6"/>
+ </symbol>
 </svg>
