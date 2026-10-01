@@ -30,6 +30,11 @@ html {
   --tekst-grootte: 1.1rem;
 }
 
+p, a, label, details {
+  font-size: var(--tekst-grootte);
+  line-height: 1.4;
+}
+
 body {
   background-color: var(--achtergrondkleur);
   color: var(--tekstkleur);
@@ -99,13 +104,10 @@ nav>a {
 
 a {
   color: var(--tekstkleur);
-  font-size: var(--tekst-grootte);
 }
 
 p {
   font-weight: normal;
-  font-size: var(--tekst-grootte);
-
 }
 
 main {
@@ -283,8 +285,6 @@ main.verkennen {
   }
 
   details {
-    font-size: var(--tekst-grootte);
-
     display: flex;
     flex-direction: column;
     align-items: center;
