@@ -18,11 +18,21 @@
 
 html {
   font-family: "Alegreya";
+
+  /*Er kunnen kleuren ingesteld worden voor lichte modus en donkere modus, maar dat doe ik nog niet.*/
+  --achtergrondkleur: black;
+  --tekstkleur: white;
+  --accentkleur1: #00FF00;
+  --accentkleur2: #58EAF3;
+
+  /*Deze kleur wordt nog niet gebruikt, maar ik zou het later kunnen gebruiken.*/
+  --nogEenKleur: #7CDE9C;
 }
 
-/*De uiteindelijke CSS moet nog bepaald worden. Voorlopig ga ik alleen de html in orde maken.*/
-
 body {
+  background-color: var(--achtergrondkleur);
+  color: var(--tekstkleur);
+
   width: 100vw;
   height: 100vh;
 
@@ -33,6 +43,10 @@ body {
 
   margin: 0;
   padding: 1rem;
+}
+
+a {
+  color: var(--tekstkleur);
 }
 
 p {
@@ -116,6 +130,7 @@ main.verkennen {
 
   h2 {
     margin: 0;
+    color: var(--accentkleur1);
   }
 
   section {
