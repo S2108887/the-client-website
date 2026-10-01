@@ -1,0 +1,10 @@
+/* De selector * target niet ::before en ::after, 
+daarom moeten als volgt ook box-sizing border-box krijgen. */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+}
