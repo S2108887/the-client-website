@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64mm" height="64mm" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <symbol id="kaart">
+  <g transform="matrix(.99444 0 0 .99552 .35603 .28668)">
+   <path id="path28" transform="matrix(1.1956 0 0 1.2344 -6.5219 .90333)" d="m7.5651 34.883c0.60708 0.79387 1.2142 1.5877 2.2882 2.6151 1.0741 1.0274 2.6151 2.2882 4.2962 3.9226 1.6811 1.6344 3.5024 3.6425 4.8333 4.9967s2.1715 2.0547 2.9186 2.1248c0.74717 0.07005 1.4009-0.49033 3.1054-1.7045 1.7045-1.2142 4.4597-3.0821 6.3976-4.5297 1.938-1.4476 3.0587-2.475 5.0667-3.5491 2.008-1.0741 4.9033-2.1948 7.5417-1.471 2.6384 0.72382 5.02 3.2922 7.1682 5.6271 2.1481 2.3349 4.0627 4.4363 5.9774 6.5377" fill="none" stroke="var(--icoon-kleur , #fff)" stroke-width="4.9389"/>
+   <use transform="translate(-3.4868e-7 -42.111)" xlink:href="#path28"/>
+   <g id="g32" transform="translate(-25.217 -2.5217)">
+    <path d="m28.16 47.185v-42.111" fill="none" stroke="var(--icoon-kleur , #fff)" stroke-width="6"/>
+    <circle cx="28.159" cy="45.671" r="3.3" fill="var(--icoon-kleur , #fff)"/>
+    <circle cx="28.237" cy="5.5337" r="3.3" fill="var(--icoon-kleur , #fff)"/>
+   </g>
+   <use id="use32" transform="translate(16.531 16.111)" xlink:href="#g32"/>
+   <use id="use33" transform="translate(23.816 -13.169)" xlink:href="#use32"/>
+   <use transform="translate(16.951 13.449)" xlink:href="#use33"/>
+  </g>
+ </symbol>
+</svg>
