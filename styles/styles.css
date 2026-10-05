@@ -265,11 +265,9 @@ main.verkennen {
     grid-template-rows: min-content 1fr;
     gap: 0.5rem;
 
-    .plattegrond>svg {
+    .plattegrond {
       width: 100%;
       height: 100%;
-
-      background-size: 2rem 2rem;
     }
   }
 
