@@ -183,7 +183,6 @@ main {
   grid-column: main;
   grid-row: main;
   padding: 1rem;
-  padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--tekstkleur);
 
   overflow-y: auto;
@@ -330,6 +329,9 @@ nav {
   @media (min-width: 32rem) {
     flex-direction: column;
     justify-content: start;
+
+    padding-top: 1rem;
+    padding-right: 0.5rem;
   }
 
   a {
