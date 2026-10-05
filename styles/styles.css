@@ -1,3 +1,5 @@
+/*--------Generieke styles--------*/
+
 /*Een ander letterype wordt ingeladen: Alegreya.*/
 @font-face {
   font-family: "Alegreya";
@@ -68,42 +70,9 @@ svg:has(use) {
   background-image: none;
 }
 
-body {
-  background-color: var(--achtergrondkleur);
-  color: var(--tekstkleur);
-
-  width: 100vw;
-  height: 100vh;
-
-  margin: 0;
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: [navigatie main] 1fr;
-  grid-template-rows: [main] 1fr [navigatie] max-content;
-
-  @media (min-width: 32rem) {
-    grid-template-columns: [navigatie] max-content [main] 1fr;
-    grid-template-rows: [navigatie main] 1fr;
-  }
-}
-
-main {
-  grid-column: main;
-  grid-row: main;
-  padding: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--tekstkleur);
-
-  overflow-y: auto;
-
-  @media (min-width: 32rem) {
-    border-bottom: 0;
-    border-left: 2px solid var(--tekstkleur);
-  }
-}
-
-
+/*
+Dit zorgt ervoor dat elke radioknop er als een bloem uit ziet.
+*/
 
 @property --bloem-lengte {
   syntax: "<number>";
@@ -184,36 +153,45 @@ label:has(input[type="radio"]) {
             transparent 16deg 36deg,
             rgb(from var(--accentkleur2) r g b / var(--bloem-alpha)) 37deg calc(360deg / 7));    
   }
-
-
 }
 
-.verkentype-formulier {
-  display: flex;
-  justify-content: space-evenly;
+/*--------Einde van generieke styles--------*/
 
-  label>span {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+/*--------Specifiekere styles in html-volgorde--------*/
 
-  svg {
-    width: 2rem;
-    height: 2rem;
-  }
+body {
+  background-color: var(--achtergrondkleur);
+  color: var(--tekstkleur);
 
-  /*In dit formulier wil ik dat de tweede radiobloem vóór diens omschrijving verschijnt.*/
-  label:nth-child(2) {
-    grid-template-columns: [knop] max-content [beschrijving] max-content;
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: [navigatie main] 1fr;
+  grid-template-rows: [main] 1fr [navigatie] max-content;
+
+  @media (min-width: 32rem) {
+    grid-template-columns: [navigatie] max-content [main] 1fr;
+    grid-template-rows: [navigatie main] 1fr;
   }
 }
 
-.plattegrond>svg {
-  width: 100%;
-  height: 100%;
+main {
+  grid-column: main;
+  grid-row: main;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--tekstkleur);
 
-  background-size: 2rem 2rem;
+  overflow-y: auto;
+
+  @media (min-width: 32rem) {
+    border-bottom: 0;
+    border-left: 2px solid var(--tekstkleur);
+  }
 }
 
 main.verkennen {
@@ -231,17 +209,35 @@ main.verkennen {
     display: none;
   }
 
-  .verkentype-formulier:has(label:nth-child(1) > input:checked)~section:nth-of-type(1) {
-    display: grid;
-  }
+  .verkentype-formulier {
+    display: flex;
+    justify-content: space-evenly;
 
-  .verkentype-formulier:has(label:nth-child(2) > input:checked)~section:nth-of-type(2) {
-    display: grid;
+    label>span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    /*In dit formulier wil ik dat de tweede radiobloem vóór diens omschrijving verschijnt.*/
+    label:nth-child(2) {
+      grid-template-columns: [knop] max-content [beschrijving] max-content;
+    }
+
+    &:has(label:nth-child(1) > input:checked)~section:nth-of-type(1),
+    &:has(label:nth-child(2) > input:checked)~section:nth-of-type(2)
+    {
+      display: grid;
+    }
   }
 }
 
 .gebiedenlijstsectie {
-  display: grid;
   grid-template-columns: repeat(auto-fit, 15rem);
   justify-content: space-evenly;
   gap: 1rem;
@@ -267,10 +263,16 @@ main.verkennen {
 }
 
 .kaartsectie {
-  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content 1fr;
   gap: 0.5rem;
+
+  .plattegrond>svg {
+    width: 100%;
+    height: 100%;
+
+    background-size: 2rem 2rem;
+  }
 }
 
 main.gebiedpagina {
