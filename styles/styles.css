@@ -51,9 +51,10 @@ p {
   max-width: 20em;
 }
 
-/*Alle afbeeldingen en de svg's zonder use-element zijn voorlopig placeholders.*/
+/*Afbeeldingen met todo.png in attribuut src en svg's zonder use-element 
+zijn voorlopig placeholders.*/
 svg,
-img {
+img[src*="todo.png"] {
 
   background-image:
     linear-gradient(45deg,
@@ -304,10 +305,14 @@ main.gebiedpagina {
     }
 
     img {
-      width: 8rem;
-      height: 4rem;
+      height: 8rem;
+      
+    }
+
+    img[src*="todo.png"] {
       background-size: 50% 100%;
       object-fit: none;
+      width: 8rem;
     }
 
   }
