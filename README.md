@@ -1,17 +1,14 @@
-# The Client - Website
+# Website voor Bloemenveld Frankendael
 
-Ontwerp en maak een website voor een opdrachtgever en bespreek het resultaat tijdens de Sprint Review.
+## Introductie
+In Amsterdam is in Park Frakendael een gebied met de naam "Bloemenveld Frankendael". Het is de bedoeling dat er een webpagina komt waarop bezoekers informatie kunnen zien over het gebied.
 
-De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/the-client-website/wiki)
+Er was eerder een prototype gemaakt voor het gebied, maar de opdrachtgever wil graag
+een Openstreetmap-kaart op de webpagina.
 
+[Ga naar de voorlopige versie van de nieuwe website van Bloemenveld Frankendael](https://edu.nl/3n3g3).
 
-
-## Inhoudsopgave Readme
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+<img width=300 alt="QR-code naar onze webpagina" src="assets/QR-code-website.png">
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -20,8 +17,6 @@ De instructie van deze leertaak staan in de [WIKI](https://github.com/fdnd-task/
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-
 
 ## Licentie
 
