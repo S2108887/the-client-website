@@ -50,7 +50,28 @@ nog geen links naar gebieden.
 
 *Verkennen: kaartweergave*
 
+### Gebiedpagina
+Er is momenteel maar één gebiedpagina: Sierlint1. 
+
 ## Kenmerken
+
+### Icoontjes
+De icoontjes zijn gemaakt met het programma Inkscape. Het was leuk om te doen, maar
+er zijn ook websites met voorgemaakte icoontjes zoals [Tabler](https://tabler.io/icons).
+
+Alle icoontjes staan in hetzelfde svg-bestand. Per icoontje is er een `<symbol>`-element.
+
+### Plattegrond
+Voor de openstreetmap-kaart wordt de javascript-library [Leaflet](https://leafletjs.com/) gebruikt. 
+De library [Openlayers](https://openlayers.org/) is recenter bijgewerkt, maar het lijkt erop dat deze
+niet eenvoudig zonder framework te gebruiken is.
+
+### HTML-structuur
+TODO
+
+### CSS
+TODO
+
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 ## Licentie
