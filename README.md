@@ -26,7 +26,30 @@ De navigatie verschijnt onder bij een smal scherm en links bij een breed scherm.
   <figcaption>Brede weergave</figcaption>
 </figure>
 
+### Verkennen-pagina
+Deze pagina toont de verschillende gebieden van Bloemenveld Frankendael.
+Je kan kiezen tussen een lijstweergave en een plattegrondweergave. 
 
+De plattegrondweergave toont een openstreetmap-kaart, maar deze bevat nog geen links naar de verschillende gebieden.
+
+De lijstweergave heeft verschillende categorieën die je open kan klikken.
+
+<img width="300" src="assets/screenshots/verkennen-lijstweergave.png">
+
+*Verkennen: lijstweergave*
+
+<img width="300" src="assets/screenshots/verkennen-lijstweergave-open.png">
+
+*Verkennen: lijstweergave. De categorieën "Sierlinten" en "Voedseleilanden" zijn geopend.*
+
+Je kan klikken op een gebied om het te openen. Momenteel is er echter alleen een pagina gemaakt voor Sierlint1.
+
+Als je de kaartweergave gebruikt, dan wordt een openstreetmap-kaart getoond, maar deze heeft
+nog geen links naar gebieden.
+
+<img width="300" src="assets/screenshots/verkennen-kaartweergave.png">
+
+*Verkennen: kaartweergave*
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
