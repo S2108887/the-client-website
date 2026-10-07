@@ -213,6 +213,7 @@ main.verkennen {
 
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content 1fr;
+  gap: 0.5rem;
 
   h2 {
     margin: 0;
