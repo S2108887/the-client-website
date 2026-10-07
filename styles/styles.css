@@ -37,6 +37,15 @@ p, a, label, details {
   line-height: 1.4;
 }
 
+h1 {
+  padding: 0;
+}
+
+h1 + p {
+  text-wrap: balance;
+  text-align: center;
+}
+
 h1,
 h2 {
   text-align: center;
