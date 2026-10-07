@@ -203,6 +203,11 @@ main {
   }
 }
 
+main.home {
+  display: grid;
+  place-items: center;
+}
+
 main.verkennen {
   display: grid;
 
