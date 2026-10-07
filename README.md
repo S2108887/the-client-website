@@ -16,15 +16,14 @@ Er is een home-pagina, maar de inhoud van deze pagina gaat nog veranderen. Twee 
 ### Gedrag bij verschillende schermgroottes
 De navigatie verschijnt onder bij een smal scherm en links bij een breed scherm.
 
-<figure>
-  <img width=300 alt="Screenshot smalle weergave, navigatie staat onder" src="assets/screenshots/navigatie-smal.png">
-  <figcaption>Smalle weergave</figcaption>
-</figure>
 
-<figure>
-  <img width=600 alt="Screenshot brede weergave; navigatie staat links" src="assets/screenshots/navigatie-breed.png">
-  <figcaption>Brede weergave</figcaption>
-</figure>
+<img width=300 alt="Screenshot smalle weergave, navigatie staat onder" src="assets/screenshots/navigatie-smal.png">
+
+*Smalle weergave*
+
+<img width=600 alt="Screenshot brede weergave; navigatie staat links" src="assets/screenshots/navigatie-breed.png">
+
+*Brede weergave*
 
 ### Verkennen-pagina
 Deze pagina toont de verschillende gebieden van Bloemenveld Frankendael.
