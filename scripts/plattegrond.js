@@ -1,25 +1,31 @@
-let plattegrondIsGeladen = false;
+import {LeafletMap, TileLayer, Control} from 'leaflet';
+
+let plattegrondIsGeladen = false
 
 document.querySelector(".verkentype-formulier input[value='kaart']")
 .addEventListener("input", naarKaartWeergave);
 
 function naarKaartWeergave() {
     if (!plattegrondIsGeladen) {
-        laadPlattegrond();
+        laadPlattegrond()
     }
 }
 
 function laadPlattegrond() {
     // Ga ongeveer naar de locatie van het bloemenveld.
-    var map = L.map('plattegrond').setView([52.351, 4.93], 17);
+    const kaart = new LeafletMap('plattegrond').setView([52.351, 4.93], 17)
 
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    new TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
-        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-    }).addTo(map);
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(kaart)
 
     //Plaats linksonder een schaalaanduiding.
-    L.control.scale({ imperial: false, metric: true }).addTo(map);
+    new Control.Scale({
+        position: 'bottomleft',
+        metric: true,
+        imperial: false
+    }).addTo(kaart)
 
     plattegrondIsGeladen = true;
 }
