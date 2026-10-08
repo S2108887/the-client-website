@@ -60,9 +60,7 @@ p {
   max-width: 20em;
 }
 
-/*Afbeeldingen met todo.png in attribuut src en svg's zonder use-element 
-zijn voorlopig placeholders.*/
-svg,
+/*Afbeeldingen met todo.png in attribuut src zijn voorlopig placeholders.*/
 img[src*="todo.png"] {
 
   background-image:
@@ -74,10 +72,6 @@ img[src*="todo.png"] {
       transparent 0% 40%,
       var(--accentkleur1) calc(40% + 1px) 60%,
       transparent calc(60% + 1px));
-}
-
-svg:has(use) {
-  background-image: none;
 }
 
 /*
